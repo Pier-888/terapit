@@ -1,8 +1,8 @@
 import { createClient } from '@supabase/supabase-js';
 
 // Usa valori di fallback per evitare errori in produzione
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || 'https://hpyrgrngfifdpvsnwnyr.supabase.co';
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhweXJncm5nZmlmZHB2c253bnlyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA5NzA3NzgsImV4cCI6MjA2NjU0Njc3OH0.K6L-oDcqSc2311pna0pHKrjy8TYfieIif-FQbdfRU7A';
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || 'https://placeholder.supabase.co';
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || 'placeholder-key';
 
 // Verifica che le variabili siano configurate
 const isConfigured = supabaseUrl !== 'https://placeholder.supabase.co' && supabaseAnonKey !== 'placeholder-key';
